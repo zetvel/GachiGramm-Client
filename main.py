@@ -3,7 +3,7 @@ import time, sys, socket
 new_socket = socket.socket()
 host_name = socket.gethostname()
 s_ip = socket.gethostbyname(host_name)
-port = 8080
+port = 8888
 
 new_socket.bind((host_name, port))
 print("Привязка выполнена успешно!")
